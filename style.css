@@ -91,15 +91,21 @@ img{
 
 
 
-
 /*BOTÃO WHATSAPP*/
 .whatsapp{
     display: flex;
     justify-content: flex-end;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 20px;
 }
 
 svg{
-    height: 300px;
+    height: 60px;
+    width: auto;
+    color: green;
+    margin-top: 5vh;
 }
 
 
@@ -114,7 +120,7 @@ footer{
 
 .footer{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     padding: 10px;
 }
 

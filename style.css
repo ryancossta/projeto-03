@@ -1,26 +1,118 @@
+body{
+    background-color: rgb(255, 249, 240);
+}
 
+body p{
+    font-family: monospace;
+}
 
+body h1{
+    font-family: sans-serif;
+}
+/* CABEÇALHO */
 header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 5vh;
     padding: 20px;
-    background-color: antiquewhite;
-    /* padding: 15vh; */
+    background-image: url(./img/1624923002830.jpg);
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    border-radius: 10px;
 }
 
-.init ul{
-    border-radius: 15px;
-    background-color: aqua;
-    list-style: none;
+.logo h1{
+    color:lightblue;
+}
+
+/* ARTICLE */
+
+article{
+    margin: 5vh;
+    margin-top: 20vh;
     display: flex;
-    gap: 20px;
-    padding: 0;
-    
+    justify-content: center;
+    gap: 10%;
 }
 
-.nav{
+.sobre{
+    border-radius: 15px;
+    background-color: aliceblue;
+    width: 600%;
+    height: 300%;
+    padding: 3vh;
+}
+
+.sobre p{
+    font-size: 2.7vh;
+    color: maroon;
+}
+
+/* SECTION */
+
+section{
+    margin-top: 20vh;
+ 
+}
+
+section h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 4vh;
+}
+section p{
+    text-align: center;
+    font-size: 2.7vh;
+    color: maroon;
+}
+
+/* IMGS */
+.imgs{
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(2, 1fr); /*CRIA COLUNAS RESPONSIVAS */
+    gap: 10vh;
+}
+
+.ilustrations{
+   text-align: center;
+   border-radius: 15px;
+}
+
+img{ 
+    width: 300px;
+    height: 350px;
+}
+
+
+/* FOOTER */
+
+footer{
+    background-color: grey;
+    margin-top: 20vh;
+}
+
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.footer a{
+    background-color: transparent;
     text-decoration: none;
     color: black;
+    font-size: 3vh;
     font-weight: bold;
 }
+
+.footer a:hover{
+    color: ivory;
+}
+

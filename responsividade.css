@@ -1,0 +1,30 @@
+/* RESPONSIVIDADE PARTE DO ARTICLE */
+
+/* Em telas menores que 768 pixels (ajuste conforme necessário) */
+@media (max-width: 768px) {
+    article {
+      flex-direction: column; /* Organiza os divs em coluna */
+    }
+  
+    .sobre {
+      width: 100%; /* Cada div ocupa toda a largura */
+      margin-bottom: 20px; /* Adiciona um espaço entre os divs */
+    }
+  }
+
+
+/* RESPONSIVIDADE PARTE DA section */
+
+  /* Para telas menores (dispositivos móveis) */
+@media (max-width: 768px) {
+    .imgs {
+      grid-template-columns: 1fr; /* 1 coluna em telas menores */
+    }
+  }
+  
+  /* Para telas muito pequenas (smartphones) */
+  @media (max-width: 480px) {
+    .imgs {
+      grid-gap: 10px; /* Reduz o espaçamento em telas muito pequenas */
+    }
+  }

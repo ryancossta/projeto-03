@@ -1,0 +1,26 @@
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: antiquewhite;
+    /* padding: 15vh; */
+}
+
+.init ul{
+    border-radius: 15px;
+    background-color: aqua;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    
+}
+
+.nav{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}

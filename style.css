@@ -90,6 +90,20 @@ img{
 }
 
 
+
+
+/*BOTÃO WHATSAPP*/
+.whatsapp{
+    display: flex;
+    justify-content: flex-end;
+}
+
+svg{
+    height: 300px;
+}
+
+
+
 /* FOOTER */
 
 footer{

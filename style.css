@@ -14,10 +14,10 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 1vh;
     padding: 20px;
+    margin: auto;
     background-image: url(./img/1624923002830.jpg);
-    height: 250px;
+    height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% auto;

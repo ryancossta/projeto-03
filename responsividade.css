@@ -1,14 +1,36 @@
+@media (max-width: 768px) {
+
+  header {
+    margin-top: 3vh;
+  }
+}
+
+
+
+@media (max-width: 768px) {
+
+  footer {
+    margin-top: 5vh;
+  }
+}
+
+
 /* RESPONSIVIDADE PARTE DO ARTICLE */
 
 /* Em telas menores que 768 pixels (ajuste conforme necessário) */
 @media (max-width: 768px) {
     article {
       flex-direction: column; /* Organiza os divs em coluna */
+      margin-top: 5vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
   
     .sobre {
       width: 100%; /* Cada div ocupa toda a largura */
       margin-bottom: 20px; /* Adiciona um espaço entre os divs */
+      text-align: center;
     }
   }
 
@@ -26,5 +48,9 @@
   @media (max-width: 480px) {
     .imgs {
       grid-gap: 10px; /* Reduz o espaçamento em telas muito pequenas */
+    }
+
+    section h1{
+      text-align: center;
     }
   }
